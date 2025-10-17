@@ -7,61 +7,61 @@ assignees:
   - mlhamatzbt
 body:
   - type: markdown
-      attributes:
-        value: |
-          Thanks for suggesting a feature!
-          Please make sure this idea isn't already filed or in progress.
+    attributes:
+      value: |
+        Thanks for suggesting a feature!
+        Please make sure this idea isn't already filed or in progress.
   
   - type: input
-      id: title
-      attributes:
-        label: Feature Title
-        description: What should this feature be called?
-        placeholder: e.g., Add dark mode support
-      validations:
-        required: true
+    id: title
+    attributes:
+      label: Feature Title
+      description: What should this feature be called?
+      placeholder: e.g., Add dark mode support
+    validations:
+      required: true
   
   - type: textarea
-      id: description
-      attributes:
-        label: Feature Description
-        description: Describe what the feature does and who it's for.
-        placeholder: A theme toggle for switching between light and dark modes.
-      validations:
-        required: true
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe what the feature does and who it's for.
+      placeholder: A theme toggle for switching between light and dark modes.
+    validations:
+      required: true
   
   - type: textarea
-      id: motivation
-      attributes:
-        label: Why Is This Needed?
-        description: Explain the problem this feature would solve or improve.
-        placeholder: Dark mode improves accessibility and reduces eye strain.
-      validations:
-        required: true
+    id: motivation
+    attributes:
+      label: Why Is This Needed?
+      description: Explain the problem this feature would solve or improve.
+      placeholder: Dark mode improves accessibility and reduces eye strain.
+    validations:
+      required: true
   
   - type: textarea
-      id: solution
-      attributes:
-        label: Proposed Implementation
-        description: How might we go about building this?
-        placeholder: Use a CSS class toggle, stored in localStorage or system preference.
-      validations:
-        required: false
+    id: solution
+    attributes:
+      label: Proposed Implementation
+      description: How might we go about building this?
+      placeholder: Use a CSS class toggle, stored in localStorage or system preference.
+    validations:
+      required: false
   
   - type: textarea
-      id: alternatives
-      attributes:
-        label: Alternatives Considered
-        description: Have you looked at other approaches or rejected ideas?
-        placeholder: A user-specific profile setting to store theme preference.
-      validations:
-        required: false
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you looked at other approaches or rejected ideas?
+      placeholder: A user-specific profile setting to store theme preference.
+    validations:
+      required: false
   
   - type: textarea
-      id: additional
-      attributes:
-        label: Additional Context
-        description: Include mockups, links, or anything else relevant.
-        placeholder: Add links to design docs or prior discussions here.
-      validations:
-        required: false
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Include mockups, links, or anything else relevant.
+      placeholder: Add links to design docs or prior discussions here.
+    validations:
+      required: false
