@@ -2,18 +2,17 @@ name: "🐞 Bug Report"
 description: Report a reproducible problem or unexpected behavior
 title: "[Bug]: "
 labels:
-
-- bug
+  - bug
 assignees:
-- mlhamatzbt
+  - mlhamatzbt
 body:
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out a bug report!
         Please make sure you've checked existing issues first.
 
-- type: input
+  - type: input
     id: summary
     attributes:
       label: Bug Summary
@@ -22,7 +21,7 @@ body:
     validations:
       required: true
 
-- type: textarea
+  - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
@@ -35,7 +34,7 @@ body:
     validations:
       required: true
 
-- type: textarea
+  - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
@@ -44,7 +43,7 @@ body:
     validations:
       required: true
 
-- type: textarea
+  - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
@@ -53,7 +52,7 @@ body:
     validations:
       required: true
 
-- type: input
+  - type: input
     id: environment
     attributes:
       label: Environment
@@ -62,7 +61,7 @@ body:
     validations:
       required: false
 
-- type: textarea
+  - type: textarea
     id: logs
     attributes:
       label: Logs or Screenshots
@@ -70,7 +69,8 @@ body:
       placeholder: Paste logs or drag & drop images here.
     validations:
       required: false
-- type: textarea
+
+  - type: textarea
     id: additional
     attributes:
       label: Additional Context
