@@ -1,0 +1,52 @@
+name: "❓ Question"
+description: Ask a general or technical question about this project
+title: "[Question]: "
+labels:
+  - question
+assignees:
+  - mlhamatzbt
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? You're in the right place.
+        Before submitting, please:
+        - Check the Discussions tab for similar questions
+        - Search closed issues
+        - Make sure this is not a bug or feature request
+
+  - type: input
+    id: question-title
+    attributes:
+      label: What’s your question?
+      description: A concise summary of your question
+      placeholder: e.g., How do I configure authentication for the dev environment?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and Background
+      description: Provide any necessary context to understand your question
+      placeholder: I’m trying to set up local development, and the docs mention an `.env` file…
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+      description: Let us know what you’ve done so far to answer your own question
+      placeholder: I checked the README and looked through closed issues but didn’t see this mentioned.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Info
+      description: Any screenshots, links, or related details that may help
+      placeholder: You can also drop screenshots or config files here.
+    validations:
+      required: false
